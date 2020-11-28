@@ -6,7 +6,8 @@ def main():
     H = float(input("Qual sua altura ?"))
     HH = 72.7 * H - 58
     HM = 62.1 * H - 44.7
-    print (f"Se você for homem o seu peso ideal é {HH}\n Se você for mulher o seu peso ideal é {HM}.")
+    print (f"Se você for homem o seu peso ideal é {HH}.") 
+    print (f"Se você for mulher o seu peso ideal é {HM}.")
 
 
 if __name__ == '__main__':
